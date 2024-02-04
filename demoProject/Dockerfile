@@ -2,7 +2,7 @@
 FROM openjdk:17-alpine
 
 # 호스트의 volume 설정
-VOLUME /target
+VOLUME /tmp
 
 # build시 사용되는 변수 설정
 ARG JAR_FILE=*.jar
